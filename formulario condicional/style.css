@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'font-family: "Roboto", Arial, sans-serif;';
+  }
+
+.center-horizontal {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+  }
+  
+  /* Estilo dos botões */
+  .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Estilo dos botões quando hover */
+  .bordered {
+    border: 1px solid;
+    
+  }
+.border-primary {
+    border-color: #007bff;
+}
+  
+.border-secondary {
+    border-color: #6c757d;
+  }
